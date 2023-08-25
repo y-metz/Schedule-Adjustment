@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexer Signup</title>
+  </head>
+  <body>
+    <h1>Flexer Signup</h1>
+    <form method="post">
+      {% csrf_token %} {{ form.as_p }}
+      <button type="submit">Register</button>
+    </form>
+
+    <a href="/flexer/login">Login</a>
+  </body>
+</html>
