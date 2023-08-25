@@ -4,6 +4,7 @@ __pycache__/
 db-volumes/
 db.sqlite3
 myvenv
+myenv
 .vscode
 __pycache__
 *.pyc
